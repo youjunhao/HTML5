@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet"href="jquery.mobile-1.4.5.min.css"/>
+    <script src="jquery-2.2.2.js"></script>
+    <script src="jquery.mobile-1.4.5.min.js"></script>
+
+<style>
+p.p_num {
+    width: 78px;
+    height: 24px;
+    border-top: solid 1px #d0d0d0;
+    position: relative;
+    border-bottom: solid 1px #d0d0d0;
+    margin-top: -3px;
+}
+ 
+span.sy_minus,span.sy_plus {
+    width: 15px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 0px;
+    font-size: 14px;
+    border: solid 1px #d0d0d0;
+    background: #ebebeb;
+    cursor: pointer;
+    border-top: none;
+    border-bottom: none;
+}
+ 
+span.sy_minus {
+    left: 0px;
+}
+ 
+span.sy_plus {
+    right: 0px;
+}
+ 
+input.sy_num {
+    width: 44px;
+    height: 18px;
+    line-height: 24px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 17px;
+}
+ 
+span.sy_num {
+    padding: 5px 8px;
+    border: solid 1px #d0d0d0;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+}
+</style>
+<style type="text/css">
+    .img{
+          height: 250px;
+           background-image:url(100.jpg);
+           background-size:100% 100%;
+         }
+</style>
+
+<style type="text/css">
+    .ui-block-a,.ui-block-b,.ui-block-c{
+        border:1px solid lightgray;
+    }
+</style>
+<style type="text/css">
+  #pageone{
+      background-image:url(背景.png); 
+  }
+  li{
+    list-style-type:none; 
+  }
+  a{
+      background-image:url(star01.jpg); 
+  }
+  #head{
+    background-image:url(star01.jpg); 
+  }
+</style>
+</head>
+<body>
+
+<div data-role="page"  id="pageone">
+  <div data-role="header" id="head">
+    <a href="#" data-role="button" data-inline="true" data-icon="home">石家庄</a>
+    <h1>猫玲家</h1>
+    <a href="搜索.html" data-role="button" data-inline="true" data-icon="search">搜索</a>
+  </div>
+<div data-role="content" class="img">
+   
+</div>
+ <div data-role="content"  align="center">
+   <div class="ui-grid-b">
+     <div class="ui-block-a" data-role="button"><img src="1.jpg" height="100px"><h4><a href="#">生日蛋糕</a></h4></div>
+     <div class="ui-block-b" data-role="button"><img src="2.jpg" height="100px"><h4><a href="#">鲜花定制</a></h4></div>
+     <div class="ui-block-c" data-role="button"><img src="3.jpg" height="100px"><h4><a href="#">甜品饮料</a></h4></div>
+   </div>
+   <div class="ui-grid-b">
+     <div class="ui-block-a" data-role="button"><img src="4.jpg" height="100px"><h4><a href="#">东咖咖喱饭</a></h4></div>
+     <div class="ui-block-b" data-role="button"><img src="5.jpg" height="100px"><h4><a href="#">美团团购</a></h4></div>
+     <div class="ui-block-c" data-role="button"><img src="6.jpg" height="100px"><h4><a href="#">十二星座</a></h4></div>
+   </div>
+  </div>
+
+<div data-role="content">
+<ul>
+    <div>
+    <a href="#"><img src="8.jpg"  align="left" height="180px" width="230px"></a>
+    <div style="margin-left:300px">
+    <li><h4><a href="#">玫瑰</a></h4></li>
+    <li style="font-size:10px"><p>44分钟送达</p></li>
+    <li style="font-size:10px"><p>起送价￥100|配送费￥0</p></li>
+    <li style="font-weight:bold;color:green">首单立减10元</li>
+    <li align="right" style="font-weight:bold;font-size:10px">已售328</li>
+    <div class="">
+        <p class="p_num">
+            <span class="sy_minus" id="sy_minus_gid1">-</span> 
+            <input class="sy_num" id="sy_num_gid1" readonly="readonly" type="text" name="number1" value="1" /> 
+            <span class="sy_plus" id="sy_plus_gid1">+</span>
+        </p>
+    </div>
+    </div>
+    </div>
+</ul>
+</div>
+<div data-role="content" >
+<ul>
+    <div>
+    <a href="#"><img src="9.jpg"  align="left" height="180px" width="230px"></a>
+    <div style="margin-left:300px" >
+    <li><h4><a href="#">松枝季</a></h4></li>
+    <li style="font-size:10px"><p>20分钟送达</p></li>
+    <li style="font-size:10px"><p>起送价￥20|配送费￥0</p></li>
+    <li style="font-weight:bold;color:green">第二份半价</li>
+    <li align="right" style="font-weight:bold;font-size:10px">月售1159</li>
+     <div class="">
+        <p class="p_num">
+            <span class="sy_minus" id="sy_minus_gid1">-</span> 
+            <input class="sy_num" id="sy_num_gid1" readonly="readonly" type="text" name="number1" value="1" /> 
+            <span class="sy_plus" id="sy_plus_gid1">+</span>
+        </p>
+    </div>
+    </div>
+    </div>
+</ul>
+</div>
+<div data-role="content" >
+<ul>
+    <div>
+    <a href="#"><img src="10.jpg"  align="left" height="180px" width="230px"></a>
+    <div style="margin-left:300px" >
+    <li><h4><a href="#">生日蛋糕</a></h4></li>
+    <li style="font-size:10px"><p>30分钟送达</p></li>
+    <li style="font-size:10px"><p>配送费￥0</p></li>
+    <li style="color:green;font-weight:bold">活动期间一律8折</li>
+    <li align="right" style="font-weight:bold;font-size:10px">月售422</li>
+     <div class="">
+        <p class="p_num">
+            <span class="sy_minus" id="sy_minus_gid1">-</span> 
+            <input class="sy_num" id="sy_num_gid1" readonly="readonly" type="text" name="number1" value="1" /> 
+            <span class="sy_plus" id="sy_plus_gid1">+</span>
+        </p>
+    </div>
+    </div>
+    </div>
+</ul>
+</div>
+<div data-role="footer">
+ <div data-role="navbar">
+<ul>
+<li><a href="#" data-icon="home" style="background-color:green">首页</a></li>
+<li><a href="#" data-icon="grid" style="background-color:green">附近</a></li>
+<li><a href="#" data-icon="gear" style="background-color:green">我的</a></li>
+</ul>
+</div>
+</body>
+</html>
