@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>jQuery实现购物车多物品数量的加减+总价计算</title>
+ <meta charset="utf-8">
+  <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
+<script>
+$(function(){
+$(".add").click(function(){
+var t=$(this).parent().find('input[class*=text_box]');
+t.val(parseInt(t.val())+1)
+setTotal();
+})
+$(".min").click(function(){
+var t=$(this).parent().find('input[class*=text_box]');
+t.val(parseInt(t.val())-1)
+if(parseInt(t.val())<0){
+t.val(0);
+}
+setTotal();
+})
+function setTotal(){
+var s=0;
+$("#tab td").each(function(){
+s+=parseInt($(this).find('input[class*=text_box]').val())*parseFloat($(this).find('span[class*=price]').text());
+});
+$("#total").html(s.toFixed(2));
+}
+setTotal();
+ 
+})
+$(function(){
+    $("#SC").click(function() {
+        $("#BF").each(function() {
+            $(this).next("span").remove();
+            $(this).remove();
+        });
+    });
+})
+</script>
+<style type="text/css">
+	.price{
+		display:block;/*统一转化为块级元素*/ 
+        overflow:hidden; 
+        width:0; 
+        height:0;      
+	}
+
+</style>
+</head>
+<body>
+
+<div class="content">
+  <div class="buttons-tab">
+    <a href="#tab1" class="tab-link active button">全部</a>
+    <a href="#tab2" class="tab-link button">待付款</a>  
+    <a href="#tab3" class="tab-link button">待发货</a >
+  </div>
+  <div class="content-block">
+    <div class="tabs">
+      <div id="tab1" class="tab active">
+        <div class="content-block">
+         <div class="content-block-title" >鲜花</div>
+  <div class="list-block">
+    <ul>
+      <li class="item-content" >
+        <div class="item-inner">
+          <div class="item-title">玫瑰</div>
+          <div  class="item-after">
+<table id="tab" type="button">
+￥15/束
+<tr>
+<td>
+<span class="price">15</span>
+<input class="min" name="" type="button" value="-" style="color:red" >
+<input class="text_box" name=""  value="1" style="width:50px; text-align:center;" >
+<input class="add" name="" type="button" value="+" style="color:red">
+</td>
+</tr>
+</table>
+          </div>
+        </div>
+      </li>
+      <li class="item-content" id="BF">
+        <div class="item-inner">
+          <div class="item-title">薰衣草</div>
+          <div class="item-after">
+<table id="tab">
+<tr>
+<td><span>￥12/束</span>
+<span class="price">12</span>
+<input class="min" name="" type="button" value="-" style="color:red">
+<input class="text_box" name=""  value="1" style="width:50px; text-align:center;" >
+<input class="add" name="" type="button" value="+" style="color:red">
+<input type="button" value="删除" id="SC">
+</td>
+</tr>
+</table>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+         <div class="content-block-title">生日蛋糕</div>
+  <div class="list-block">
+    <ul>
+      <li class="item-content">
+        <div class="item-inner">
+          <div class="item-title">蓝玫瑰鲜奶蛋糕</div>
+          <div  class="item-after">
+<table id="tab">
+<tr>
+<td>
+<span>￥128/个</span><span class="price">128</span>
+<input class="min" name="" type="button" value="-" style="color:red" >
+<input class="text_box" name=""  value="1" style="width:50px; text-align:center;" >
+<input class="add" name="" type="button" value="+" style="color:red">
+
+</td>
+</tr>
+</table>
+          </div>
+        </div>
+      </li>
+      <li class="item-content">
+        <div class="item-inner">
+          <div class="item-title">爱在巴黎</div>
+          <div class="item-after">
+<table id="tab">
+<tr>
+<td>
+<span>￥157/个</span><span class="price">157</span>
+<input class="min" name="" type="button" value="-" style="color:red">
+<input class="text_box" name=""  value="1" style="width:50px; text-align:center;" >
+<input class="add" name="" type="button" value="+" style="color:red">
+</td>
+</tr>
+</table>
+          </div>
+        </div>
+      </li>
+    </ul>
+<p>总价：<label id="total"></label></p>
+  </div>
+
+        </div> 
+      </div>
+
+      <div id="tab2" class="tab">
+        <div class="content-block">
+          <p>This is tab 2 content</p>
+        </div>
+      </div>
+      <div id="tab3" class="tab">
+        <div class="content-block">
+          <p>This is tab 3 content</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+ <script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
+</body>
+</html>
