@@ -1,0 +1,216 @@
+*{
+            font-family: "楷体";
+            font-size: 20px;
+        }
+    body{
+        padding:0;
+        font:1rem; 
+    }
+    #lib_Tab1_sx{
+        width:100%;
+        margin:0rem;
+        padding:0px;
+        margin-bottom:15px; 
+        overflow:hidden;
+    }
+    .lib_tabborder_sx{
+        border:0rem solid #95C9E1;
+    }
+    .lib_Menubox_sx {
+        line-height:100%;
+        position:fixed; 
+        float:left; 
+        width:20%; 
+        height:100%;
+        border-right:1px solid lightgray;
+    }
+    .lib_Menubox_sx ul{
+        margin-top:-1rem;
+        padding:0px;
+        list-style:none; 
+        position:absolute; 
+        top:1rem;  
+        margin-left:0rem; 
+        height:100%;
+        text-align:center;
+        width: 100%;
+    }
+    .lib_Menubox_sx li{
+        display:block;
+        cursor:pointer;
+        height:1.8rem;
+        line-height:1.8rem; 
+        background-color: #EDEDED; 
+        border:1px solid white ;
+        border-right: 0px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .lib_Menubox_sx li.hover{
+        padding:0px;
+        background:#fff;
+        border:0.1rem solid lightgray;
+        color:#000000;
+        height:1.8rem;
+        line-height:1.8rem; 
+        border-left: 0.2rem solid green;
+        border-right: 0px solid lightgray;
+    }
+    .lib_Contentbox_sx{ 
+        border-top:none; 
+        border-left:0; 
+        margin-left:20%;
+        margin-top: -8%;
+        border-left: 1px solid lightgray;
+    }
+        
+        .footer{ 
+            color:000000; 
+            left:0;
+            background:#000; 
+            width: 100%; 
+            height:40px; 
+            position:fixed; 
+            bottom:0; 
+            z-index:999;  
+            overflow:visible; 
+            text-align: center; 
+            margin-bottom: 0px;}
+        #btn1{
+             float: right;
+             background-color: #a3eeb6;
+             width: 3rem;
+             height: 100%;
+             text-align: center;
+        }
+        body {
+            font: normal 100% Helvetica, Arial, sans-serif;
+        }
+        h1 {
+            font-size: 1.5em;
+        }
+        .small {
+            font-size: 0.875em;
+        }
+        .bar .icon{
+            color: #3C3C3C;
+        }
+        .bar-nav{
+            background-color: #FF8C00;
+        }
+        .bar-nav .icon .icon-left .pull-left .open-panel{
+            color:#D8BFD8;
+        }
+        .bar-nav .icon .icon-menu .open-panel{
+            color:#D8BFD8;
+        }
+        /*.bar-nav img{               顶部logo
+            position: absolute;
+            left: 6rem;
+            width: 1.5rem;
+            top: 0.4rem;
+        }*/
+        .panel{                         /*侧栏*/
+            background-color:#524E4D;
+            max-height: 268px;
+            max-width: 150px;
+            margin-top: 20px;
+            margin-right: 5px;
+        }
+        .content-block p a{
+            color:#D8BFD8;
+        }
+        .content{
+            background-color: #FFFFFF;  /*内容*/
+        }
+        .content .buttons-tab{
+            background-color: white;
+        }
+        .content .buttons-tab .tab-link{
+            background-color:#E69600;
+        }
+        .buttons-row .tab-link{
+            background-color:#87CEFA;
+        }
+        .tabs ul{               /*商品内容*/
+            background-color:#FFFFFF;
+        }
+        .tabs ul li a{
+            color:black;
+        }
+        .tabs ul li img{
+            width:4rem;
+        }
+        .tabs ul li .item-subtitle{
+            color:gray;
+        }
+        .tabs ul li .item-text{
+            color:red;
+        }
+        .tabs ul li .item-text .small{
+            text-decoration:line-through;
+            color:gray;
+        }
+        .tabs ul li .item-title-row{
+            color: black;
+        }
+        .tabs ul li .item-text .button{
+            width:100px;
+            float:right;
+        }
+        .card .facebook-card .facebook-avatar img{
+            border-radius: 50%;
+        }
+        .card {                                         /*评论区*/
+            background-color: #E6E6FA;
+        }
+        .card .card-footer{
+            background-color: #E6E6FA;
+        }
+        .bottombox { 
+            background-color: #CCC; 
+            position: absolute; 
+            left: 0px;
+            width:100%; 
+            height: 1.5rem;
+        }
+        .fixed-bottom{ 
+            position:fixed; 
+            bottom:0; 
+            border:#ccc solid 1px; 
+            box-shadow: #ccc;
+        }
+        .footer{
+            z-index: 999;  
+            position:fixed; 
+            bottom:0; 
+            width:100%; 
+            height:7.3%; 
+            line-height:30%; 
+            background-color:#ffffff; 
+            border-bottom:1px solid gray;
+            border-top:1px solid gray;
+        }
+        .footer .ft-lt{ 
+            float:left; 
+            width:70%; 
+            height:7.3%;}
+        .footer .ft-lt p{ 
+            float:left; 
+            margin-left:1.5rem; 
+            font-size:1rem;
+        }
+        .footer .ft-rt{ 
+            float:left; 
+            width:30%; 
+            height:100%; 
+            background-color:#39B867;
+        }
+        .footer .ft-rt p{ 
+            font-size:1rem; 
+            color:#fff; 
+            text-align:center;
+        }
+        .footer .ft-rt p a{
+            color: #fff;
+        }
