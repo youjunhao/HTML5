@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+	<title>qq</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("#login").on('click',function(){
+        var temp1=$("#fname").val();
+        var temp2=$("#password").val();
+        var temp3=$("#text").val();
+        if(temp1=="")
+        {
+          alert("请输入账号！");
+        }
+        else if(temp2=="")
+        {
+          alert("请输入密码！");
+        }  
+        else if(temp3=="")
+        {
+          alert("请输入验证码！");
+        }
+        else
+        {
+          alert("登陆成功！");
+        }  
+      });
+    });
+  </script>  
+  </head>
+<body>
+  <div data-role="page">
+    <div data-role="header">
+      <a href="#" data-role="button">返回</a>
+      <h1>登陆</h1>
+    </div>  
+    <div data-role="content">
+      <form method="post" action="demoform.asp">
+        <div data-role="fieldcontain">
+          <table>
+            <tr>
+              <td>
+                <label for="fname">用户名：</label>
+              </td>
+              <td>  
+                <input type="text" name="fname" id="fname" placeholder="请输入用户名">
+              </td>
+            </tr>
+            <tr>            
+              <td>     
+                <label for="password">密码：</label>
+              </td>
+              <td>  
+                <input type="password" name="password" id="password" placeholder="请输入密码">
+              </td>  
+            </tr>
+            <tr>
+              <td>
+                <label for="text">请输入验证码：</label>
+              </td>
+              <td>  
+                <input type="text" fname="text" id="text">
+                <img src="1.jpg"><a href="">看不清，换一张</a>
+              </td>
+            </tr>
+          </table>
+        </div>        
+      </form>  
+      <div data-role="fieldcontain">
+        <fieldset data-role="controlgroup" data-type="horizontal">
+          <input type="checkbox" name="blue" id="effect1" class="custom"/>
+          <label for="effect1">记住账号</label>
+          <input type="checkbox" name="blue" id="effect2" class="custom"/>
+          <label for="effect2">保存密码</label><a href="#">忘记密码</a>
+    </div>
+    <div data-role="controlgroup">
+      <a href="#" data-role="button" data-inline="true" id="login">登陆</a>
+      <a href="注册.html" data-role="button" data-inline="true" rel="external">注册</a>
+    </div>  
+  </div>
+</body>
+</html>  

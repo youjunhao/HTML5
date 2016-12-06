@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+	<title>qq</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("#register").on('click',function(){
+        var temp1=$("#fname").val();
+        var temp2=$("#password").val();
+        var temp3=$("#password1").val();
+        var temp4=$("#text1").val();
+        var temp5=$("#tel").val();
+        var temp6=$("#email").val();
+        var temp7=$("#text").val();
+        if(temp1=="")
+        {
+          alert("请输入用户名！");
+        }
+        else if(temp2=="")
+        {
+          alert("请输入密码！");
+        }    
+        else if(temp3=="")
+        {
+          alert("请再次输入密码！");
+        }  
+        else if(temp4=="")
+        {
+          alert("请输入姓名！");
+        }  
+        else if(temp5=="")
+        {
+          alert("请输入电话！");
+        }  
+        else if(temp6=="")
+        {
+          alert("请输入邮箱地址");
+        }  
+        else if(temp7=="")
+        {
+          alert("请输入验证码！");
+        }  
+        else
+        {
+          alert("注册成功！");
+        }  
+      });
+    });
+  </script>
+  </head>
+<body>
+  <div data-role="page">
+    <div data-role="header">
+      <a href="#" data-role="button">返回</a>
+      <h1>注册</h1>
+    </div>  
+    <div data-role="content">
+      <form method="post" action="demoform.asp">
+        <div data-role="fieldcontain">
+          <table>
+            <tr>
+              <td>
+                <label for="fname">用户名：</label>
+              </td>
+              <td>  
+                <input type="text" name="fname" id="fname">
+              </td>
+            </tr>    
+            <tr>
+              <td>
+                <label for="password">密码：</label>
+              </td>
+              <td>  
+                <input type="password" name="password" id="password">
+              </td>
+            </tr>
+            <tr>
+              <td>  
+                <label for="password">确认密码：</label>
+              </td>
+              <td>  
+                <input type="password" name="password" id="password1"> 
+              </td>
+            </tr>
+            <tr>
+              <td>   
+                <label for="text">真实姓名：</label>
+              </td>
+              <td>  
+                <input type="text" name="text" id="text1">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="text">手机号：</label>
+              </td>
+              <td>  
+                <input type="tel" name="text" id="tel">
+              </td>
+            </tr>
+            <tr>
+              <td>  
+                <label for="text">邮箱：</label>
+              </td>
+              <td>  
+                <input type="email" name="text" id="email"> 
+              </td>
+            </tr>
+            <tr>
+              <td>  
+                <label for="text">请输入验证码：</label>
+              </td>
+              <td>  
+                <input type="text" name="text" id="text">
+                <img src="1.jpg"><a href="">看不清，换一张</a>
+              </td>
+            </tr>
+          </table>
+        </div>        
+      </form>  
+      <div data-role="fieldcontain">
+        <fieldset data-role="controlgroup" data-type="horizontal">
+          <input type="radio" name="radio-choice-1" id="radio-choice-1" value="choice-1"/>
+          <label for="radio-choice-1">I agree</label>
+          <input type="radio" name="radio-choice-1" id="radio-choice-2" value="choice-2"/>
+          <label for="radio-choice-2">I don`t agree</label>
+        </fieldset>   
+      </div>
+    </div>
+    <div data-role="controlgroup">
+      <a href="#" data-role="button" data-inline="true" id="register">注册</a>
+    </div>  
+  </div>
+</body>
+</html>  
