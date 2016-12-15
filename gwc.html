@@ -8,12 +8,12 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="stylesheet" href="css/gwc.css">
-    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
-    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
-    <script type="text/javascript" src="js/gwc.js"></script>
 
+    <link rel="stylesheet" href="http://g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
+    <link rel="stylesheet" href="http://g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
+    <script type="text/javascript" src="./js/gwc.js"></script>
+    <link rel="stylesheet" href="./css/gwc.css">
 </head>
 <body>
      <div class="page-group">
@@ -21,20 +21,36 @@
         <!-- 你的html代码 -->
             <div class="page">
             	<header class="bar bar-nav">
-            		<a href="#.html" class="icon icon-left pull-left"></a>
+            		<a class="icon icon-left pull-left open-panel" href="#" external onclick="javascript:history.back(-1);"></a>
             		<h1 class="title">购物车</h1>
-            		<a href="#" class="icon icon-me pull-right"></a>
+            		<a class="button button-link button-nav pull-right" href="#">
+                <span class="icon icon-menu open-panel" data-panel='#panel-left-demo' ></span>
+              </a>
             	</header>
+                <div class="panel panel-right panel-cover " id='panel-left-demo'>
+            <div class="content-block">
+              <hr/>
+              <p><a href="index.html" external >门店首页</a></p>
+              <hr/>
+              <p><a href="gwc.html" external >我的订单</a></p>
+              <hr/>
+              <p><a href="#" class="close-panel" >关闭</a></p>
+              <hr/>
+            </div>
+            <div class="list-block">
+              <!-- .... -->
+            </div>
+          </div>
                 <div class="content">
                     <div class="buttons-tab">
                         <a href="#tab1" class="tab-link active button">全部</a>
                         <!--<a href="#tab2" class="tab-link button">待付款</a>-->
                         <a href="#tab3" class="tab-link button">待评价</a>
                     </div>
-                    <div class="bar bar-tab" style="bottom:0; position:fixed;">
-                      <div class="row" style="height:70px; text-align:center;">
-                    	<p class="col-50" style="MARGIN-RIGHT: auto;MARGIN-LEFT: auto;">总价：¥<label id="total"></label></p>
-                        <p class="col-50" style="width:70px; float:right;"><a href="#" class="button button-fill button-success">去结算 </a></p></div>
+                    <div class="bar bar-tab">
+                      <div class="row" >
+                    	<p class="col-50" >总价：¥<label id="total"></label></p>
+                        <p class="col-50" style="width:70px; float:right;"><a href="#" class="button button-fill button-success">去支付</a></p></div>
                     </div>
                     <div class="content-block">
                         <div class="tabs">
@@ -44,7 +60,7 @@
                                 <ul>
                                     <li id="BF" style="background-color: #C8F8C8;">
                                         <a href="#" class="item-link item-content">
-                                            <div class="item-media"><img src="images/1.jpg" style='width: 5rem;'></div>
+                                            <div class="item-media"><img src="images/cake/1.jpg" style='width: 5rem;'></div>
                                             <div class="item-inner">
                                                 <div class="item-title-row">
                                                     <div class="item-title">生日蛋糕1</div>
@@ -68,7 +84,7 @@
                                     <hr/>
                                     <li id="BF" style="background-color: #C8F8C8;">
                                         <a href="#" class="item-link item-content">
-                                            <div class="item-media"><img src="images/1.jpg" style='width: 5rem;'></div>
+                                            <div class="item-media"><img src="images/cake/1.jpg" style='width: 5rem;'></div>
                                             <div class="item-inner">
                                                 <div class="item-title-row">
                                                     <div class="item-title">生日蛋糕1</div>
@@ -92,7 +108,7 @@
                                     <hr/>
                                     <li id="BF" style="background-color: #C8F8C8;">
                                         <a href="#" class="item-link item-content">
-                                            <div class="item-media"><img src="images/1.jpg" style='width: 5rem;'></div>
+                                            <div class="item-media"><img src="images/cake/1.jpg" style='width: 5rem;'></div>
                                             <div class="item-inner">
                                                 <div class="item-title-row">
                                                     <div class="item-title">生日蛋糕1</div>
@@ -116,7 +132,7 @@
                                     <hr/>
                                     <li id="BF" style="background-color: #C8F8C8;">
                                         <a href="#" class="item-link item-content">
-                                            <div class="item-media"><img src="images/1.jpg" style='width: 5rem;'></div>
+                                            <div class="item-media"><img src="images/cake/1.jpg" style='width: 5rem;'></div>
                                             <div class="item-inner">
                                                 <div class="item-title-row">
                                                     <div class="item-title">生日蛋糕1</div>
@@ -159,7 +175,7 @@
                                             <ul>
                                                 <li class="item-content">
                                                 <div class="item-media">
-                                                <img src="images/1.jpg" width="44">
+                                                <img src="images/cake/1.jpg" width="44">
                                                 </div>
                                                 <div class="item-inner">
                                                 <div class="item-title-row">
@@ -200,7 +216,7 @@
       </div>
     <div class="card demo-card-header-pic">
     <div valign="bottom" class="card-header color-white no-border no-padding">
-      <img class='card-cover' src="images/1.jpg" alt="">
+      <img class='card-cover' src="images/cake/1.jpg" alt="">
     </div>    
     <div class="card-footer">
       <a href="#" class="link">赞</a>
@@ -223,9 +239,9 @@
     </div>
   
 
-    <script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
-    <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
-    <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='http://g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='http://g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='http://g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
 
 </body>
 </html>
