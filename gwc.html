@@ -14,7 +14,7 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
     <script type="text/javascript" src="./js/gwc.js"></script>
     <link rel="stylesheet" href="./css/gwc.css">
-</head>
+    </head>
 <body>
      <div class="page-group">
        
@@ -42,24 +42,15 @@
             </div>
           </div>
                 <div class="content">
-                    <div class="buttons-tab">
-                        <a href="#tab1" class="tab-link active button">全部</a>
-                        <!--<a href="#tab2" class="tab-link button">待付款</a>-->
-                        <a href="#tab3" class="tab-link button">待评价</a>
-                    </div>
-                    <div class="bar bar-tab">
-                      <div class="row" >
-                    	<p class="col-50" >总价：¥<label id="total"></label></p>
-                        <p class="col-50" style="width:70px; float:right;"><a href="#" class="button button-fill button-success">去支付</a></p></div>
-                    </div>
-                    <div class="content-block">
+                    
+                    <div class="content-block" style="">
                         <div class="tabs">
                             <div id="tab1" class="tab active">
                                 <div class="content-block">
                                 <div class="list-block media-list">
                                 <ul>
-                                    <li id="BF" style="background-color: #C8F8C8;">
-                                        <a href="#" class="item-link item-content">
+                                    <li id="BF" >
+                                        <a href="#" class="item item-content" style="color: #000">
                                             <div class="item-media"><img src="images/cake/1.jpg" style='width: 5rem;'></div>
                                             <div class="item-inner">
                                                 <div class="item-title-row">
@@ -81,9 +72,8 @@
                                             </div>
                                         </a>
                                     </li>
-                                    <hr/>
-                                    <li id="BF" style="background-color: #C8F8C8;">
-                                        <a href="#" class="item-link item-content">
+                                    <li id="BF">
+                                        <a href="#" class="item item-content" style="color: #000">
                                             <div class="item-media"><img src="images/cake/1.jpg" style='width: 5rem;'></div>
                                             <div class="item-inner">
                                                 <div class="item-title-row">
@@ -104,34 +94,9 @@
                                                 </table></div>
                                             </div>
                                         </a>
-                                    </li>
-                                    <hr/>
-                                    <li id="BF" style="background-color: #C8F8C8;">
-                                        <a href="#" class="item-link item-content">
-                                            <div class="item-media"><img src="images/cake/1.jpg" style='width: 5rem;'></div>
-                                            <div class="item-inner">
-                                                <div class="item-title-row">
-                                                    <div class="item-title">生日蛋糕1</div>
-                                                    <div class="item-after icon icon-remove SC" type="button"></div>
-                                                </div>
-                                                <div class="item-subtitle">¥199</div>
-                                                <div class="item-text">
-                                                <table id="tab">
-                                                    <tr>
-                                                        <td>
-                                                            <input class="min" name="" type="button" value="-" style="color:red">
-                                                            <input class="text_box" name=""  value="1" style="width:50px; text-align:center;" >
-                                                            <input class="add" name="" type="button" value="+" style="color:red">
-                                                            <span class="price">199</span>
-                                                        </td>
-                                                    </tr>
-                                                </table></div>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <hr/>
-                                    <li id="BF" style="background-color: #C8F8C8;">
-                                        <a href="#" class="item-link item-content">
+                                    </li>                                                                               
+                                    <li id="BF" >
+                                        <a href="#" class="item item-content" style="color: #000">
                                             <div class="item-media"><img src="images/cake/1.jpg" style='width: 5rem;'></div>
                                             <div class="item-inner">
                                                 <div class="item-title-row">
@@ -154,6 +119,14 @@
                                         </a>
                                     </li>
                                 </ul>
+                                            <div class="footer" id="bb">
+                                                <div class="ft-lt">
+                                                    <p>合计:<label id="total"></label>元</p>
+                                                </div>
+                                                <div class="ft-rt">
+                                                    <p><a href="zhifu.html" external>去结算</a></p>
+                                                </div>
+                                            </div>
                                 </div>
                                 </div><!--content1-block-->
                             </div><!--tab1end-->
@@ -167,7 +140,8 @@
                                     <p>This is tab 2 content</p>
                                 </div>content2-block
                              </div>tab2end-->
-                            <div id="tab3" class="tab">
+                               <!--待评价界面-->
+                           <!-- <div id="tab3" class="tab">      
                                 <div class="content-block">
                                 <div class="card">
                                     <div class="card-content">
@@ -209,33 +183,26 @@
           <div class="item-inner">
             <div class="item-title label" style="font-size:20px;">评价</div>
             <div class="item-input">
-              <textarea style="width:100%;"></textarea>
+              <textarea style="width:100%;" placeholder="写下您对商家的评价吧~"></textarea>
+
+			 
+
             </div>
           </div>
         </div>
       </div>
-    <div class="card demo-card-header-pic">
-    <div valign="bottom" class="card-header color-white no-border no-padding">
-      <img class='card-cover' src="images/cake/1.jpg" alt="">
-    </div>    
-    <div class="card-footer">
-      <a href="#" class="link">赞</a>
-      <a href="#" class="link">更多</a>
-    </div>
-  </div>
+			  
                                    
 
 
 
-                                </div><!--content3-block-->
-                            </div><!--tab3end-->
-                        </div><!--tabs-->
-                    </div><!--content-block-->
-                </div><!--content-->
-
-            </div><!--pageend-->
-        <!--代码end-->
-        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        -->
     </div>
   
 
