@@ -1,0 +1,57 @@
+<layout name="layout_admin" />
+<!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="index.html">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="allRooms.html">客房管理</a><span class="crumb-step">&gt;</span><span>客房管理修改</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="{:U('Admin/Rice/update')}" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                            <tr>
+                                <th><i class="require-red">*</i>米饭名称：</th>
+                                <td>
+                                    <input class="common-text required" id="title" name="name" size="50" value="{$rice.name}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>已售数量：</th>
+                                <td>
+                                    <input class="common-text required" id="title" name="number" size="50" value="{$rice.number}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>原价：</th>
+                                <td>
+                                    <input class="common-text required" id="title" name="yprice" size="50" value="{$rice.yprice}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>现价：</th>
+                                <td>
+                                    <input class="common-text required" id="title" name="xprice" size="50" value="{$rice.xprice}" type="text">
+                                </td>
+                            </tr>            
+                            <tr>
+                                <th><i class="require-red">*</i>米饭图片：</th>
+                                <td>
+                                    <img src="__PUBLIC__/{$rice.photo}" /><input name="photo" id="" type="file">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input type="hidden" value="{$rice.id}" name="id" />
+                                    <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!--/main-->
