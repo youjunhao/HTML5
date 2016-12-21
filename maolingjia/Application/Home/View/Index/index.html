@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>猫玲家</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="http://m.sui.taobao.org/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="http://m.sui.taobao.org/dist/css/sm.min.css">
+    <link rel="stylesheet" href="http://m.sui.taobao.org/dist/css/sm-extend.min.css">
+    
+    <style type="text/css">
+    *{
+      font-family: "楷体";
+      font-size: 18px;
+    }
+      .bar{
+        background-color: #FF8C00;
+      }
+      .bar .icon{
+        color: #3C3C3C;
+      }
+      .bar img{
+        width: 45px;
+        margin-left: 0px;
+        margin-top: 5px;
+      }
+      .bar-header-secondary{
+        background-color: #FF8C00;
+      }
+      .swiper-container{
+        background-size: cover; /*让图片覆盖满整个div*/
+        background-position: center,center; /*让图片在div里水平垂直居中*/
+        background-repeat: no-repeat;
+        height: 410px;
+      }
+      .row{
+        margin-top: 20px;
+      }
+      .row div{
+        text-align: center;
+      }
+      .row img{
+        width:75px;
+        height:75px; 
+        border-radius:50%; 
+        overflow:hidden;
+      }
+      .content{
+        background-color: #FFFFFF;
+      }
+      .content-block p a{
+          color:#D8BFD8;
+      }
+      @media (max-width:768px) {
+          .swiper-container {
+              height: 250px;
+          }
+          .swiper-container img{
+              width: 100%;
+          }
+      }
+      .panel{
+        background-color:#524E4D;
+        max-height: 258px;
+        max-width: 150px;
+        margin-top: 20px;
+        margin-right: 5px;
+      }
+      .panel p{
+        color:  #3C3C3C;
+        font-size: 15px
+      }
+      .more1 a{
+        color: #FE0431;
+      }
+      .more2 a{
+        color: #FE0431;
+      }
+      .more3 a{
+        color: #FE0431;
+      }
+      .more4 a{
+        color: #FE0431;
+      }
+      .more1 img{
+        width: 100%;
+        max-height: 250px;
+      }
+      .more2 img{
+        width: 100%;
+        max-height: 250px;
+      }
+      .more3 img{
+        width: 100%;
+        max-height: 250px;
+      }
+      .more4 img{
+        width: 100%;
+        max-height: 250px;
+      }
+      .more1-1{
+        position: absolute;
+        right: 10px;
+        color: #FE0431;
+      }
+      .more2-1{
+        position: absolute;
+        right: 10px;
+        color: #FE0431;
+      }
+      .more3-1{
+        position: absolute;
+        right: 10px;
+        color: #FE0431;
+      }
+      .more4-1{
+        position: absolute;
+        right: 10px;
+        color: #FE0431;
+      }
+      .swiper-container{
+        margin-bottom: 30px;
+      }
+      .tuijian{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        width: 3px;
+        height: 30px;
+        background: orange;
+      }
+      .footer-top{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+
+  <div class="page-group" >
+      <!-- 你的html代码 -->
+      <div class="page page-current" id="page-1480141689782">
+          <header class="bar bar-nav" >
+              <h1 class="title">猫玲家</h1>
+              <a class="button button-link button-nav pull-right" href="#">
+                <span class="icon icon-menu open-panel" data-panel='#panel-left-demo' ></span>
+              </a>
+              <img src="__PUBLIC__/home/images/logo（副本）.jpg" >
+          </header>
+          <!--search-->
+          <div class="bar bar-header-secondary" >
+              <div class="searchbar">
+                <a class="searchbar-cancel">取消</a>
+                <div class="search-input">
+                  <label class="icon icon-search" for="search"></label>
+                  <input type="search" id='search' placeholder='输入关键字...'/>
+                </div>
+              </div>
+            </div>
+          <!-- Left Panel with Reveal effect -->
+          <div class="panel panel-right panel-cover " id='panel-left-demo'>
+            <div class="content-block">
+              <hr/>
+              <p><a href="__MODULE__/Index/index" external >门店首页</a></p>
+              <hr/>
+              <p><a href="#" class="close-panel" >关闭</a></p>
+              <hr/>
+            </div>
+            <div class="list-block">
+              <!-- .... -->
+            </div>
+          </div>
+          <div class="content native-scroll">
+              <!-- 这里是页面内容区 -->
+        <div class="page-index">
+
+                <!-- Slider -->
+          <div class="swiper-container" data-space-between='10' >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="__PUBLIC__/home/images/cake/1.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="__PUBLIC__/home/images/cake/4.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="__PUBLIC__/home/images/cake/3.jpg" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="row" >
+            <div class="col-25" >
+              <a href="{:U('home/category/cake')}" external><img src="__PUBLIC__/home/images/logo1.jpg" ></a>
+              生日蛋糕
+            </div>
+            <div class="col-25" >
+              <a href="{:U('home/category/drink')}" external><img src="__PUBLIC__/home/images/logo2.jpg" ></a>
+              甜品饮料
+            </div>
+            <div class="col-25">
+              <a href="{:U('home/category/flower')}" external><img src="__PUBLIC__/home/images/logo3.jpg" ></a>
+              鲜花定制
+            </div>
+            <div class="col-25">
+              <a href="{:U('home/category/rice')}" external><img src="__PUBLIC__/home/images/logo4.jpg" ></a>
+              美味米饭
+            </div>
+          </div>
+          <hr/>
+          <!--底部-->
+              <div class="tuijian">
+              &nbsp;look&nbsp;here!
+              </div>
+          <div class="more1">
+              <a href="__MODULE__/Category/cake" external class="more1-1">更多>></a>
+              <a href="__MODULE__/Category/cake" external >&nbsp;草莓慕斯蛋糕<img src="__PUBLIC__/home/images/cake/8.jpg" ></a>
+          </div>
+          <hr/>
+          <div class="more2">
+              <a href="__MODULE__/Category/drink" external class="more2-1">更多>></a>
+              <a href="__MODULE__/Category/drink" external >&nbsp;奶盖茶<img src="__PUBLIC__/home/images/drink/3.jpg"></a>
+          </div>
+          <hr/>
+          <div class="more3">
+              <a href="__MODULE__/Category/flower" external class="more3-1">更多>></a>
+              <a href="__MODULE__/Category/flower" external >&nbsp;玫瑰生日花束<img src="__PUBLIC__/home/images/flower/1.jpg"></a>
+          </div>
+          <hr/>
+          <div class="more4">
+              <a href="__MODULE__/Category/rice" external class="more4-1">更多>></a>
+              <a href="__MODULE__/Category/rice" external >&nbsp;东咖咖哩饭<img src="__PUBLIC__/home/images/lunch/1.jpg" style="width: 100%; "></a>
+          </div>
+          <hr/>
+          <div class="footer-top">
+            <h3>推荐商品已显示全部</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+    <script type="text/javascript" src="http://g.alicdn.com/sj/lib/zepto/zepto.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://m.sui.taobao.org/dist/js/sm.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://m.sui.taobao.org/dist/js/sm-extend.js" charset="utf-8"></script>
+    <script>
+        $.init(); 
+    </script>
+</body>
+</html>

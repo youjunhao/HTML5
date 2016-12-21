@@ -1,0 +1,627 @@
+[ 2016-09-14T09:07:18+08:00 ] 127.0.0.1 /Hotelms/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001388s ]
+
+[ 2016-09-14T09:51:57+08:00 ] 127.0.0.1 /hotelms/wap/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0351s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001866s ]
+
+[ 2016-09-14T09:55:04+08:00 ] 127.0.0.1 /hotelms/wap/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0402s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002084s ]
+
+[ 2016-09-14T09:56:35+08:00 ] 127.0.0.1 /hotelms/wap/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0377s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2016-09-14T09:58:04+08:00 ] 127.0.0.1 /hotelms/wap/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0687s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002108s ]
+
+[ 2016-09-14T10:08:56+08:00 ] 127.0.0.1 /hotelms/wap/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2016-09-14T10:09:23+08:00 ] 127.0.0.1 /hotelms/wap/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0265s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2016-09-14T10:17:25+08:00 ] 127.0.0.1 /hotelms/wap/index/show?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+ERR: 非法操作:show
+
+[ 2016-09-14T10:17:30+08:00 ] 127.0.0.1 /hotelms/wap/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0243s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001954s ]
+
+[ 2016-09-14T10:17:33+08:00 ] 127.0.0.1 /hotelms/wap/index/show?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+ERR: 非法操作:show
+
+[ 2016-09-14T10:17:37+08:00 ] 127.0.0.1 /hotelms/wap/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001788s ]
+
+[ 2016-09-14T10:17:41+08:00 ] 127.0.0.1 /hotelms/wap/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0557s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2016-09-14T10:18:10+08:00 ] 127.0.0.1 /hotelms/wap/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002125s ]
+
+[ 2016-09-14T10:20:37+08:00 ] 127.0.0.1 /hotelms/wap/index/show?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+ERR: 非法操作:show
+
+[ 2016-09-14T10:39:21+08:00 ] 127.0.0.1 /hotelms/wap/index/show?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+ERR: 非法操作:show
+
+[ 2016-09-14T10:39:25+08:00 ] 127.0.0.1 /hotelms/wap/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002387s ]
+
+[ 2016-09-14T10:41:35+08:00 ] 127.0.0.1 /hotelms/wap/index/show?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+ERR: 非法操作:show
+
+[ 2016-09-14T10:41:49+08:00 ] 127.0.0.1 /hotelms/wap/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002430s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0364s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001817s ]
+
+[ 2016-09-14T10:52:17+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `news` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001287s ]
+
+[ 2016-09-14T10:52:20+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `news` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001135s ]
+
+[ 2016-09-14T10:52:36+08:00 ] 127.0.0.1 /hotelms/wap/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0221s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002276s ]
+
+[ 2016-09-14T10:52:39+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0431s ]
+SQL: SELECT * FROM `news` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002863s ]
+
+[ 2016-09-14T10:52:59+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `news` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001383s ]
+
+[ 2016-09-14T10:53:44+08:00 ] 127.0.0.1 /hotelms/wap/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2016-09-14T10:54:30+08:00 ] 127.0.0.1 /Hotelms/Wap/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0848s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2016-09-14T10:54:43+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `news` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2016-09-14T10:55:15+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0373s ]
+SQL: SELECT * FROM `news` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2016-09-14T10:55:26+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0221s ]
+SQL: SELECT * FROM `news` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002056s ]
+
+[ 2016-09-14T10:55:53+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0306s ]
+SQL: SELECT * FROM `news` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001235s ]
+
+[ 2016-09-14T10:57:03+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0387s ]
+SQL: SELECT * FROM `news` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2016-09-14T10:57:09+08:00 ] 127.0.0.1 /hotelms/wap/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0627s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-09-14T10:57:12+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0494s ]
+SQL: SELECT * FROM `news` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001788s ]
+
+[ 2016-09-14T11:00:46+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0299s ]
+SQL: SELECT * FROM `news` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003106s ]
+
+[ 2016-09-14T11:01:39+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `news` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001291s ]
+
+[ 2016-09-14T11:02:02+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `news` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2016-09-14T11:02:17+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0218s ]
+SQL: SELECT * FROM `news` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001844s ]
+
+[ 2016-09-14T11:02:43+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0514s ]
+SQL: SELECT * FROM `news` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001388s ]
+
+[ 2016-09-14T11:02:44+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `news` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002069s ]
+
+[ 2016-09-14T11:02:45+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `news` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002074s ]
+
+[ 2016-09-14T11:02:46+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0505s ]
+SQL: SELECT * FROM `news` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001975s ]
+
+[ 2016-09-14T11:02:47+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `news` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002443s ]
+
+[ 2016-09-14T11:02:49+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0457s ]
+SQL: SELECT * FROM `news` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002191s ]
+
+[ 2016-09-14T11:03:41+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `news` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001377s ]
+
+[ 2016-09-14T11:04:19+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0424s ]
+SQL: SELECT * FROM `news` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2016-09-14T11:12:06+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0564s ]
+SQL: SELECT * FROM `news` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002031s ]
+
+[ 2016-09-14T11:13:29+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0384s ]
+SQL: SELECT * FROM `news` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2016-09-14T11:18:16+08:00 ] 127.0.0.1 /hotelms/index.php/wap/index/show?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+NOTIC: [2048] Declaration of Wap\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\apache\apache2.2\htdocs\Hotelms\Application\Wap\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0464s ]
+SQL: SELECT * FROM `news` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002077s ]
+
