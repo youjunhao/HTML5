@@ -1,0 +1,224 @@
+[ 2016-12-19T12:32:46+08:00 ] 127.0.0.1 /Hotelms/Public/e/css/comm.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+ERR: 无法加载模块:Public
+
+��载模块:Public
+
+[ 2016-12-19T12:32:46+08:00 ] 127.0.0.1 /Hotelms/Public/e/css/focus.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:32:47+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-09-13/57d79fc4bc30c.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:32:47+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-09-13/57d7e6be64fa3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:32:47+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-09-13/57d79f93261f9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:32:52+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-09-13/57d7e6be64fa3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:32:52+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-09-13/57d79fc4bc30c.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:32:52+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-09-13/57d79f93261f9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:32:52+08:00 ] 127.0.0.1 /Hotelms/Public/home/templates/jd_1/images/bg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:32:52+08:00 ] 127.0.0.1 /Hotelms/Public/home/templates/jd_1/images/cbg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:32:52+08:00 ] 127.0.0.1 /Hotelms/Public/home/templates/jd_1/images/bottom.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:43:15+08:00 ] 127.0.0.1 /Hotelms/Public/e/css/comm.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:43:15+08:00 ] 127.0.0.1 /Hotelms/Public/e/css/focus.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:43:15+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-09-13/57d79fc4bc30c.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:43:15+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-09-13/57d7e6be64fa3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:43:15+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-09-13/57d79f93261f9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:43:15+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-09-13/57d79fc4bc30c.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:43:15+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-09-13/57d7e6be64fa3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:49:05+08:00 ] 127.0.0.1 /Hotelms/Public/e/css/comm.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:49:05+08:00 ] 127.0.0.1 /Hotelms/Public/e/css/focus.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:49:06+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-09-13/57d79fc4bc30c.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:49:06+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-09-13/57d7e6be64fa3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:49:06+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-09-13/57d79f93261f9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:49:06+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-09-13/57d79fc4bc30c.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002146s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:49:06+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-09-13/57d7e6be64fa3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:49:06+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-09-13/57d79f93261f9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:49:06+08:00 ] 127.0.0.1 /Hotelms/Public/home/templates/jd_1/images/bg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:49:06+08:00 ] 127.0.0.1 /Hotelms/Public/home/templates/jd_1/images/cbg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T12:49:06+08:00 ] 127.0.0.1 /Hotelms/Public/home/templates/jd_1/images/bottom.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T15:10:20+08:00 ] 127.0.0.1 /Hotelms/Public/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T22:33:34+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-12-18/585653b143b75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T22:34:23+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-12-18/585653b143b75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T22:35:30+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-12-18/585653b143b75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T22:36:04+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-12-19/585653b143b75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T22:36:04+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-12-19/585653b143b75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T22:36:15+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-12-19/585653b143b75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T22:56:03+08:00 ] 127.0.0.1 /Hotelms/Public/uploads/2016-12-19/585653b143b75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+ERR: 无法加载模块:Public
+
